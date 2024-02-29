@@ -1,0 +1,51 @@
+Arguments: 
+  /home/siddhu_from_sklm/.nvm/versions/node/v21.6.1/bin/node /home/siddhu_from_sklm/.yarn/bin/yarn.js install
+
+PATH: 
+  /home/siddhu_from_sklm/.npm/_npx/86fd6f984ad48a35/node_modules/.bin:/home/siddhu_from_sklm/Desktop/WEB3.0/CrowdFunding/node_modules/.bin:/home/siddhu_from_sklm/Desktop/WEB3.0/node_modules/.bin:/home/siddhu_from_sklm/Desktop/node_modules/.bin:/home/siddhu_from_sklm/node_modules/.bin:/home/node_modules/.bin:/node_modules/.bin:/home/siddhu_from_sklm/.nvm/versions/node/v21.6.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin:/home/siddhu_from_sklm/.console-ninja/.bin:/home/siddhu_from_sklm/.yarn/bin:/home/siddhu_from_sklm/.config/yarn/global/node_modules/.bin:/home/siddhu_from_sklm/.bun/bin:/home/siddhu_from_sklm/.console-ninja/.bin:/home/siddhu_from_sklm/.yarn/bin:/home/siddhu_from_sklm/.config/yarn/global/node_modules/.bin:/home/siddhu_from_sklm/.bun/bin:/home/siddhu_from_sklm/.console-ninja/.bin:/home/siddhu_from_sklm/.yarn/bin:/home/siddhu_from_sklm/.config/yarn/global/node_modules/.bin:/home/siddhu_from_sklm/.nvm/versions/node/v21.6.1/bin:/home/siddhu_from_sklm/.bun/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games:/home/siddhu_from_sklm/flutter/bin:/home/siddhu_from_sklm/flutter/bin:/home/siddhu_from_sklm/flutter/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  21.6.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  AggregateError [ENETUNREACH]: 
+      at internalConnectMultiple (node:net:1116:18)
+      at internalConnectMultiple (node:net:1184:5)
+      at internalConnectMultiple (node:net:1184:5)
+      at internalConnectMultiple (node:net:1184:5)
+      at internalConnectMultiple (node:net:1184:5)
+      at internalConnectMultiple (node:net:1184:5)
+      at internalConnectMultiple (node:net:1184:5)
+      at internalConnectMultiple (node:net:1184:5)
+      at internalConnectMultiple (node:net:1184:5)
+      at internalConnectMultiple (node:net:1184:5)
+
+npm manifest: 
+  {
+    "name": "hardhat-javascript-starter",
+    "scripts": {
+      "build": "npx thirdweb@latest detect",
+      "deploy": "npx thirdweb@latest deploy",
+      "release": "npx thirdweb@latest release"
+    },
+    "devDependencies": {
+      "@matterlabs/hardhat-zksync-solc": "^0.3.17",
+      "hardhat": "^2.13.0"
+    },
+    "dependencies": {
+      "@thirdweb-dev/contracts": "^3.8.0",
+      "zksync-web3": "^0.14.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
